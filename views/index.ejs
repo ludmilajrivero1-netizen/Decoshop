@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoshop</title>
+    <link rel="stylesheet" href="/style.css">
+        
+</head>
+<body>
+   <%- include("partials/header") %>
+    <main>
+    <section class="banner">
+       <h5>¡Muebles de calidad para que te sientas en casa!</h5>
+
+    </section>
+
+    <section class="producto">
+        <% productos.forEach(producto => { %>
+        <article class="tarjeta">
+            <h2><%= producto.nombre %></h2>
+            <img src="<%= producto.imagen %>" alt="<%= producto.nombre %>">
+            <p>Precio: $<%= producto.precio %></p>
+             <a href="/producto?id=<%= producto.id %>" class="btn-comprar">Comprar</a>
+        </article>
+         <% }) %>
+    </section>
+    
+</main>
+    <%- include("partials/footer") %>
+</body>
+  
+</html>

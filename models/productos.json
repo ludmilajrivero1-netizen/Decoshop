@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "nombre": "Estantería",
+        "descripcion": "Mueble de estantería clásico.",
+        "precio": 399,
+        "categoria": "muebles",
+        "stock": 10,
+        "imagen": "/imágenes/Estantería.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "Escritorio",
+        "descripcion": "Mueble de escritorio rústico.",
+        "precio": 550,
+        "categoria": "muebles",
+        "stock": 10,
+        "imagen": "/imágenes/Escritorio.jpeg"
+    },
+    {
+        "id": 3,
+        "nombre": "Mesa de luz",
+        "descripcion": "Mueble decorativo con cajones.",
+        "precio": 260,
+        "categoria": "muebles",
+        "stock": 10,
+        "imagen": "/imágenes/mesadeluz.jpeg"
+    }
+]
